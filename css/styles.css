@@ -42,8 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;
+  --bs-primary-rgb: 215, 149, 4; /*Modificar esta linea para cambiar el color del fondo*/
+  --bs-secondary-rgb: 44, 62, 80; /*Color de la barra de navegacion*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
-  --bs-link-hover-color: #15967d;
+  --bs-link-color: #1abc9c; /*Color de los links*/
+  --bs-link-hover-color: #15967d; /*Color cuando te pones encima de un link*/
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -91,7 +91,7 @@
   }
 }
 
-body {
+bo<strong></strong>dy {
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -1118,7 +1118,7 @@ progress {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
-  .col-md-6 {
+  .col-md-7 {
     flex: 0 0 auto;
     width: 50%;
   }
@@ -2846,15 +2846,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1abc9c;
-  --bs-btn-border-color: #1abc9c;
+  --bs-btn-bg: #d79538; /*Color de botones*/
+  --bs-btn-border-color: #000000; /*Color del borde*/
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
-  --bs-btn-hover-border-color: #15967d;
+  --bs-btn-hover-bg: #cd7a08; /*Color al ponerse sobre el boton*/
+  --bs-btn-hover-border-color: #ffffff; /*Colro del borde al ponerse encima*/
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #15967d;
-  --bs-btn-active-border-color: #148d75;
+  --bs-btn-active-bg: #a86406; /*Color del fondo al pulsar*/
+  --bs-btn-active-border-color: #a86406; /*Color del borde del boton al pulsar*/
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #1abc9c;
@@ -7667,7 +7667,7 @@ textarea.form-control-lg {
   margin-bottom: 1.5rem !important;
 }
 
-.mb-5 {
+.mb-5 { /*Padding inferior de la primera fila*/
   margin-bottom: 3rem !important;
 }
 
@@ -9579,8 +9579,8 @@ textarea.form-control-lg {
   .me-lg-auto {
     margin-right: auto !important;
   }
-  .mb-lg-0 {
-    margin-bottom: 0 !important;
+  .mb-lg-0 { /*Padding de la segunda fila*/
+    margin-bottom: 3rem !important; 
   }
   .mb-lg-1 {
     margin-bottom: 0.25rem !important;
@@ -10826,12 +10826,14 @@ textarea.form-control-lg {
   }
 }
 html {
-  height: 100%;
-  scroll-padding-top: calc(4.5rem - 1px);
+    height: 100%;
+    scroll-padding-top: calc(4.5rem - 1px);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10906,8 +10908,8 @@ html {
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
 }
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+#mainNav .navbar-nav li.nav-item a.nav-link:hover { /*Color de los elementos de la lista de navegacion cuando te pones encima*/
+  color: #D79504;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10933,13 +10935,13 @@ html {
   #mainNav .navbar-nav {
     margin-top: 0;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active { /*Cambiar color del item en la navegacion cuando llegas a esa zona*/
     color: #fff;
-    background: #1abc9c;
+    background: #D79504;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #a86406; /*Cambiar el color cuando estas encima*/
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10979,6 +10981,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
+  border-radius: 50%;
   width: 15rem;
 }
 
@@ -11009,7 +11012,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(215, 149, 4, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
