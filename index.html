@@ -33,6 +33,7 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#concept">Concept Art</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre mí</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#footerPaginas">Otras Páginas</a></li>
                     </ul>
                 </div>
             </div>
@@ -167,6 +168,17 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!--Portfolio Item 1 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#_3DModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><p class="lead">Haz click para ver más detalles sobre este proyecto</p><i class="fas fa-gamepad fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/timon.jpeg" alt="..." />
+                        </div>
+                    </div>
+                </div>
 
        <!-- Concept Art Section-->
        <section class="page-section portfolio" id="concept">
@@ -298,7 +310,7 @@
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Mis otras páginas</h4>
+                        <h4 id="footerPaginas"class="text-uppercase mb-4">Mis otras páginas</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Sebastian02L"><i class="fab fa-github fa-fw"></i></a>
                      <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a> -->
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/sebasti%C3%A1n-loges-de-faria-90916b164/"><i class="fab fa-fw fa-linkedin-in"></i></a>
@@ -606,7 +618,7 @@
                 </div>
             </div>
         </div>
-                <!-- Portfolio Modal 6-->
+        <!-- Portfolio Modal 6-->
         <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -751,6 +763,460 @@
                 </div>
             </div>
         </div>
+
+        <!-- 3D Modal 1-->
+        <div class="portfolio-modal modal fade" id="_3DModal1" tabindex="-1" aria-labelledby="_3DModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Jack's Life</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa-solid fa-laptop"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                     <H3>Desarrollado en 3ero de Carrera</H3>
+                                     <p>Haz click en las imágenes para verlas con más detalle.</p>
+                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/timon.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal1" style="cursor: pointer;" />
+                                    <!-- Portfolio Modal - Text-->
+                                   <p class="mb-1">Estas imágenes pertenecen a un juego ficticio llamado Jack's Life, modelé diversos elementos para el escenario y el personaje principal. Entre ellos un pueblo abandonado, ruinas de un fuerte, restos del barco del personaje y palmeras.</p>
+                                   <br>
+                                   <p class="text-center">Motor: Unity</p>
+                                   <p class="mb-0">No está publicado al no ser un juego completo</p>
+                                   <br>
+                                   <p class="text-center">Herramientas utilizadas:</p>
+                                   <ul style="text-align: left;">
+                                       <li><b>3DsMax</b> para el modelado del entorno y personaje.</li>
+                                       <li><b>Mudbox</b> para el texturizado. Las texturas del escenario se aplicaron mediante proyecciones.</li>
+                                   </ul>
+                                   <br>
+                                    <H2>Video sobre Animación 3D del Escenario</H2>
+                                    <!-- Video 1-->
+                                    <video controls muted loop class="img-fluid rounded mb-5">
+                                        <source src="assets/img/portfolio/Animacion3DBloqueI.mp4" type="video/mp4">
+                                        Tu navegador no soporta la etiqueta de video.
+                                    </video>
+                                    <br>
+                                    <H2>Video sobre Animación con Físicas. Simulación de Telas</H2>
+                                    <!-- Video 2-->
+                                    <video controls muted loop class="img-fluid rounded mb-5">
+                                        <source src="assets/img/portfolio/Animacion3DBloqueII.mp4" type="video/mp4">
+                                        Tu navegador no soporta la etiqueta de video.
+                                    </video>
+                                    <br>
+                                    <H2>Imágenes</H2>
+
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/barco1.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal2" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/barco2.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal3" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/barco3.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal4" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/edi1.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal5" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/edi2.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal6" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/edi3.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal7" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/edi4.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal8" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/edi5.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal9" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/edi6.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal10" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fuerte1.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal11" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cangrejo.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal12" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/palmeras.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal13" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/canones.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal14" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p1.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal15" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p2.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal16" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p3.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal17" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p4.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal18" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p5.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal19" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p6.jpeg" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal20" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/vocals.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal21" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/vocals3.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal22" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/eyes.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal23" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/emotions.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal24" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/espada.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal25" style="cursor: pointer;" />
+                                   <br>
+                                   <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cadenas.png" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal26" style="cursor: pointer;" />
+                                   <br>
+
+                                   <!-- Boton de salir-->
+                                   <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Cerrar Ventana
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Imagenes grandes Modal 1-->
+        <!--1-->
+        <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/timon.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/barco1.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--3-->
+        <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/barco2.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--4-->
+        <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/barco3.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--5-->
+        <div class="modal fade" id="imageModal5" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/edi1.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--6-->
+        <div class="modal fade" id="imageModal6" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/edi2.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--7-->
+        <div class="modal fade" id="imageModal7" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/edi3.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--8-->
+        <div class="modal fade" id="imageModal8" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/edi4.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--9-->
+        <div class="modal fade" id="imageModal9" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/edi5.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--10-->
+        <div class="modal fade" id="imageModal10" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/edi6.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--11-->
+        <div class="modal fade" id="imageModal11" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/fuerte1.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--12-->
+        <div class="modal fade" id="imageModal12" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/cangrejo.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--13-->
+        <div class="modal fade" id="imageModal13" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/palmeras.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--14-->
+        <div class="modal fade" id="imageModal14" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/canones.jpeg" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--15-->
+        <div class="modal fade" id="imageModal15" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/p1.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--16-->
+        <div class="modal fade" id="imageModal16" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/p2.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--17-->
+        <div class="modal fade" id="imageModal17" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/p3.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--18-->
+        <div class="modal fade" id="imageModal18" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/p4.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--19-->
+        <div class="modal fade" id="imageModal19" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/p5.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--20-->
+        <div class="modal fade" id="imageModal20" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/p6.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--21-->
+        <div class="modal fade" id="imageModal21" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/vocals.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--22-->
+        <div class="modal fade" id="imageModal22" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/vocals3.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--23-->
+        <div class="modal fade" id="imageModal23" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/eyes.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--24-->
+        <div class="modal fade" id="imageModal24" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/emotions.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--25-->
+        <div class="modal fade" id="imageModal25" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/espada.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--26-->
+        <div class="modal fade" id="imageModal26" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/img/portfolio/cadenas.png" alt="Imagen" class="img-fluid w-100" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
