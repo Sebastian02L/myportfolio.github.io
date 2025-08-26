@@ -42,8 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 215, 149, 4; /*Modificar esta linea para cambiar el color del fondo*/
-  --bs-secondary-rgb: 0, 105, 148; /*Color de la barra de navegacion*/
+  --bs-primary-rgb: 20, 16, 17; /*Modificar esta linea para cambiar el color del fondo*/
+  --bs-secondary-rgb: 0, 0, 0; /*Color de la barra de navegacion*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -2846,15 +2846,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #d79538; /*Color de botones*/
+  --bs-btn-bg: #000000; /*Color de botones*/
   --bs-btn-border-color: #000000; /*Color del borde*/
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #cd7a08; /*Color al ponerse sobre el boton*/
+  --bs-btn-hover-bg: #2c2c2c; /*Color al ponerse sobre el boton*/
   --bs-btn-hover-border-color: #ffffff; /*Colro del borde al ponerse encima*/
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #a86406; /*Color del fondo al pulsar*/
-  --bs-btn-active-border-color: #a86406; /*Color del borde del boton al pulsar*/
+  --bs-btn-active-bg: #b9b9b9; /*Color del fondo al pulsar*/
+  --bs-btn-active-border-color: #000000; /*Color del borde del boton al pulsar*/
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #1abc9c;
@@ -10868,7 +10868,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #006994 ;
+  color: #000000 ;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -10909,7 +10909,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover { /*Color de los elementos de la lista de navegacion cuando te pones encima*/
-  color: #D79504;
+  color: #c1e0d9;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10937,11 +10937,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active { /*Cambiar color del item en la navegacion cuando llegas a esa zona*/
     color: #fff;
-    background: #D79504;
+    background: #433638;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #a86406; /*Cambiar el color cuando estas encima*/
+    background: #765F62; /*Cambiar el color cuando estas encima de un item de la navegacion*/
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -11012,7 +11012,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(215, 149, 4, 0.9);
+  background-color: rgba(0, 0, 0, 0.9); /* Color de fondo del modal al estar encima */
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11045,6 +11045,6 @@ html {
 }
 
 .copyright {
-  background-color: #005378;
+  background-color: #000000;
 }
 

@@ -1,0 +1,645 @@
+[
+  {"VIDEOJUEGOS": true},
+  {
+    "id": "p-kocube",
+    "section": "videojuegos",
+    "title": "KO Cube",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/KOCube.png",
+    "large": "assets/img/portfolio/KOCube.png",
+    "type": "image",
+    "description": "Hero Shooter 3vs3 donde puedes combatir con tus amigos en diferentes modos de juego mediante tu navegador favorito.",
+    "platforms": [
+      "assets/img/portfolio/Unity-Logo.png",
+      "assets/img/portfolio/webglLogo.jpeg"
+    ],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/3020985",
+      "width": 552,
+      "height": 167,
+      "href": "https://flatwall-games.itch.io/kocube",
+      "text": "KoCube by FlatWall Games, carlossantayana"
+    },
+    "responsibilities": [
+      "Modelado, texturizado y animación del personaje 'Ma Xin Gan'.",
+      "Modelado, texturizado y animación de props del escenario.",
+      "Modelado y texturizado del arma del personaje 'Alra'.",
+      "Modelado y texturizado de los proyectiles de varios personajes.",
+      "Programación del sistema de guardado local de datos mediante PlayerPrefs.",
+      "Programación del sistema de selección de personajes, mostrando sus características en la interfaz y instanciándolos en los runtimes de los jugadores.",
+      "Diseño de los botones y carteles de las interfaces.",
+      "Navegación por mando mediante el New Input System.",
+      "Renders para redes sociales."
+    ],
+    "github": {
+      "url": "https://github.com/FlatWall-Games/KO-Cube",
+      "image": "assets/img/portfolio/GitHub-Logo.png",
+      "imageWidth": 500
+    }
+  },
+  {
+    "id": "p-indiestudio",
+    "section": "videojuegos",
+    "title": "Indie Studio Simulator",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/IndieStudio.png",
+    "large": "assets/img/portfolio/IndieStudio.png",
+    "type": "image",
+    "description": "Indie Studio Simulator se trata de un simulador donde el jugador puede observar cómo es estar dentro de un estudio indie. El jugador puede interactuar y afectar la productividad de la empresa.",
+    "platforms": ["assets/img/portfolio/Unity-Logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/3193860",
+      "width": 552,
+      "height": 167,
+      "href": "https://flatwall-games.itch.io/indie-studio-simulator",
+      "text": "Indie Studio Simulator by FlatWall Games"
+    },
+    "video": {
+      "type": "youtube",
+      "src": "https://www.youtube.com/embed/YrGJbPWUWAw",
+      "width": 560,
+      "height": 315
+    },
+    "responsibilities": [
+      "Modelado y texturizado de la oficina.",
+      "Modelado y texturizado de la mayoría de los props.",
+      "Programación del comportamiento del conserje mediante una máquina de estados y un árbol de decisión."
+    ]
+  },
+  {
+    "id": "p-trivial",
+    "section": "videojuegos",
+    "title": "Trivial Game",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/TrivialGame.png",
+    "large": "assets/img/portfolio/TrivialGame.png",
+    "type": "image",
+    "description": "Trivial Game se trata de un juego de preguntas donde el jugador debe responder correctamente la mayor cantidad de preguntas posible.",
+    "platforms": [
+      "assets/img/portfolio/androidstudiologo.jpg",
+      "assets/img/portfolio/jetpack_composelogo.png"
+    ],
+    "video": {
+      "type": "mp4",
+      "src": "assets/img/portfolio/DADM_juego1_video.mp4"
+    },
+    "github": {
+      "url": "https://github.com/Sebastian02L/AndroidTrivialGame",
+      "image": "assets/img/portfolio/GitHub-Logo.png",
+      "imageWidth": 500
+    },
+    "responsibilities": [
+      "Programación de la interfaz de configuración de la partida.",
+      "Implementación de la librería Navigation para la navegación entre pantallas.",
+      "Bloquear la rotación de la pantalla y ocultar la interfaz del móvil."
+    ]
+  },
+  {
+    "id": "p-hangman",
+    "section": "videojuegos",
+    "title": "Hangman Game",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/Hangmangame.png",
+    "large": "assets/img/portfolio/Hangmangame.png",
+    "type": "image",
+    "description": "Hangman Game es un juego donde el jugador debe adivinar palabras con el menor número de errores posible.",
+    "platforms": [
+      "assets/img/portfolio/androidstudiologo.jpg",
+      "assets/img/portfolio/flutterlogo.png"
+    ],
+    "video": {
+      "type": "mp4",
+      "src": "assets/img/portfolio/DADM_juego2_video.mp4"
+    },
+    "github": {
+      "url": "https://github.com/Sebastian02L/AndroidHangmanGame",
+      "image": "assets/img/portfolio/GitHub-Logo.png",
+      "imageWidth": 500
+    },
+    "responsibilities": [
+      "Programación de la mecánica de adivinar palabras, condición de victoria y derrota.",
+      "Diseño e implementación de la interfaz de la pantalla de juego."
+    ]
+  },
+  {
+    "id": "p-skyline",
+    "section": "videojuegos",
+    "title": "Skyline Express",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/SkylineExpress.png",
+    "large": "assets/img/portfolio/SkylineExpress.png",
+    "type": "image",
+    "description": "Skyline Express es un endless runner donde controlas un tren volador y esquivas obstáculos.",
+    "platforms": ["assets/img/portfolio/Unity-Logo.png"],
+    "video": {
+      "type": "youtube",
+      "src": "https://www.youtube.com/embed/oPoKn_p283I",
+      "width": 560,
+      "height": 315
+    },
+    "responsibilities": [
+      "Programación de la generación de obstáculos.",
+      "Programación de un controlador parametrizado.",
+      "Programación del sistema de aumento de dificultad.",
+      "Modelado y texturizado de algunos obstáculos."
+    ],
+    "github": {
+      "url": "https://github.com/Sebastian02L/UnityAndroidGame",
+      "image": "assets/img/portfolio/GitHub-Logo.png",
+      "imageWidth": 500
+    }
+  },
+  {
+    "id": "p-ba",
+    "section": "videojuegos",
+    "title": "Baker's Agony",
+    "subtitle": "Desarrollado en 2do de Carrera (GameJam)",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/BA.png",
+    "large": "assets/img/portfolio/BA.png",
+    "type": "image",
+    "description": "Juego 2D rogue-like con cámara cenital donde controlas a Ode, un panadero que entra en una mazmorra para salvar a su familia.",
+    "platforms": ["assets/img/portfolio/Unity-Logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2935830",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/bakers-agony",
+      "text": "Baker's Agony by Sebastián Loges de Faria, carlossantayana"
+    },
+    "note": "La versión original de este juego solo se encuentra en Itchio. En Steam hay una versión a la venta, la cual fue subida por uno de los desarrolladores.",
+    "responsibilities": [
+      "Sprites 2D de varias armas del juego.",
+      "Diseño 2D de algunas salas del juego."
+    ]
+  },
+  {
+    "id": "p-psyche",
+    "section": "videojuegos",
+    "title": "Psyche",
+    "subtitle": "Desarrollado en 3ero de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/Psyche.png",
+    "large": "assets/img/portfolio/Psyche.png",
+    "type": "image",
+    "description": "Juego en 3era persona donde debes avanzar por los escenarios resolviendo pequeños puzles.",
+    "platforms": ["assets/img/portfolio/Unity-Logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2844531",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/psyche",
+      "text": "Psyche by Sebastián Loges de Faria, carlossantayana, mdoc14"
+    },
+    "responsibilities": [
+      "Modelado del personaje principal y algunos enemigos.",
+      "Modelado y texturización del primer escenario.",
+      "Modelado de algunos props del primer escenario.",
+      "Programación de un patrón Observer para el sistema de ocultación de paredes del primer escenario."
+    ]
+  },
+  {
+    "id": "p-ribbitrumble",
+    "section": "videojuegos",
+    "title": "Ribbit Rumble",
+    "subtitle": "Desarrollado en 3ero de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/RibbitRumble.png",
+    "large": "assets/img/portfolio/RibbitRumble.png",
+    "type": "image",
+    "description": "Juego de lucha de ranas antropomórficas en 2D para navegador.",
+    "platforms": ["assets/img/portfolio/phaser-logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2480476",
+      "width": 552,
+      "height": 167,
+      "href": "https://brillbucketgames.itch.io/ribbit-rumble",
+      "text": "Ribbit Rumble by BrillBucketGames"
+    },
+    "responsibilities": [
+      "Animaciones de 'Rana Toro'.",
+      "Escenario del desierto.",
+      "Temporizador de la partida.",
+      "Interfaz de la partida.",
+      "Programación de sistemas de animaciones y mensajería."
+    ]
+  },
+  {
+    "id": "p-arkanoid",
+    "section": "videojuegos",
+    "title": "Arkanoid",
+    "subtitle": "Desarrollado en 2do de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/Arkanoid.png",
+    "large": "assets/img/portfolio/Arkanoid.png",
+    "type": "image",
+    "description": "Versión clásica limitada del juego Arkanoid.",
+    "platforms": ["assets/img/portfolio/web_logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2938265",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/arkanoid-retro",
+      "text": "Arkanoid Retro by Sebastián Loges de Faria, carlossantayana"
+    },
+    "responsibilities": [
+      "Programación de los rebotes de la pelota.",
+      "Testing."
+    ]
+  },
+  {
+    "id": "p-hnh",
+    "section": "videojuegos",
+    "title": "Heat & Hopes",
+    "subtitle": "Desarrollado en 3ero de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/H&H.png",
+    "large": "assets/img/portfolio/H&H.png",
+    "type": "image",
+    "description": "Juego 2D de cámara lateral donde encarnas el papel de Heat, con enfoque en accesibilidad.",
+    "platforms": ["assets/img/portfolio/Unity-Logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2935755",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/heat-hopes",
+      "text": "Heat & Hopes by Sebastián Loges de Faria, carlossantayana"
+    },
+    "note": "El objetivo de este proyecto es la implementación de herramientas de accesibilidad.",
+    "responsibilities": [
+      "Implementación de un sistema para usuarios disléxicos (tamaño/espaciado de letra).",
+      "Cambio de idioma entre español e inglés.",
+      "Voz de la radio en español.",
+      "Sistema de reproducción de diálogos del juego."
+    ]
+  },
+  {
+    "id": "p-jdlv",
+    "section": "videojuegos",
+    "title": "Juego de la Vida",
+    "subtitle": "Desarrollado en 2do de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/JDLV.png",
+    "large": "assets/img/portfolio/JDLV.png",
+    "type": "image",
+    "description": "Recreación del autómata celular diseñado por John Horton Conway.",
+    "platforms": ["assets/img/portfolio/html5_logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2938287",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/juego-de-la-vida",
+      "text": "Juego de la Vida by Sebastián Loges de Faria, carlossantayana"
+    },
+    "responsibilities": [
+      "Programación del sistema de casillas.",
+      "Testing."
+    ]
+  },
+  {
+    "id": "p-sttr",
+    "section": "videojuegos",
+    "title": "Stranger Things The Rescue",
+    "subtitle": "Desarrollado en 1ero de Carrera",
+    "icon": "fas fa-gamepad fa-2x",
+    "thumb": "assets/img/portfolio/STTR.png",
+    "large": "assets/img/portfolio/STTR.png",
+    "type": "image",
+    "description": "Aventura gráfica estilo Pixel Art donde controlas a Steve en un rescate dentro de Hawkins.",
+    "platforms": ["assets/img/portfolio/ags_logo.png"],
+    "embed": {
+      "type": "iframe",
+      "src": "https://itch.io/embed/2844553",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/stranger-things-the-rescue",
+      "text": "Stranger Things The Rescue by Sebastián Loges de Faria, carlossantayana"
+    },
+    "note": "Este juego no fue realizado con el permiso de Netflix; se realizó como proyecto de asignatura.",
+    "responsibilities": [
+      "Dibujo en Pixel Art del Demogorgon.",
+      "Modelado y texturización del primer escenario.",
+      "Programación de todo el juego."
+    ]
+  },
+  {"MODELOS": true, "DIV": "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"},
+  {
+    "id": "m-kocube",
+    "section": "modelos3d",
+    "title": "KO Cube",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fa-solid fa-laptop fa-3x",
+    "thumb": "assets/img/portfolio/MaXinGanNoiseRender2.png",
+    "large": "assets/img/portfolio/MaXinGanNoiseRender2.png",
+    "type": "image",
+    "description": "Estas imágenes pertenecen al videojuego KO Cube estilo Voxel Art, donde hice el modelado y texturizado de varios elementos, así como la animación de props y personajes.",
+    "platforms": ["assets/img/portfolio/Blender-logo.png"],
+    "images": [
+      "assets/img/portfolio/MaxinganRender.png",
+      "assets/img/portfolio/MaxinganRender2.png",
+      "assets/img/portfolio/AlraWeapon.png",
+      "assets/img/portfolio/AlraWeapon2.png",
+      "assets/img/portfolio/Baleproyectile.png",
+      "assets/img/portfolio/Baleproyectile2.png",
+      "assets/img/portfolio/MaxinganProyectile.png",
+      "assets/img/portfolio/MaxinganShield.png",
+      "assets/img/portfolio/MaxinganShield2.png",
+      "assets/img/portfolio/Sadguyproyectile.png",
+      "assets/img/portfolio/banners.png",
+      "assets/img/portfolio/chains.png",
+      "assets/img/portfolio/chains2.png",
+      "assets/img/portfolio/plants.png" 
+    ],
+    "responsibilities": [
+      "Blender para el modelado, texturizado y animación de los modelos.",
+      "Blender para los renders de diversos modelos para redes sociales."
+    ]
+  },
+  {
+    "id": "m-jackslife",
+    "section": "modelos3d",
+    "title": "Jack's Life",
+    "subtitle": "Desarrollado en 3ero de Carrera",
+    "icon": "fas fa-laptop fa-2x",
+    "thumb": "assets/img/portfolio/timon.jpeg",
+    "large": "assets/img/portfolio/timon.jpeg",
+    "type": "image",
+    "description": "Estas imágenes pertenecen a un juego ficticio llamado Jack's Life; modelé todos los elementos 3D para el escenario y el personaje principal: un pueblo abandonado, ruinas de un fuerte, restos del barco del personaje y palmeras.",
+    "platforms": [
+      "assets/img/portfolio/Unity-Logo.png",
+      "assets/img/portfolio/3ds-max-logo.png",
+      "assets/img/portfolio/mudbox-logo.jpg"
+    ],
+    "images": [
+      "assets/img/portfolio/timon.jpeg",
+      "assets/img/portfolio/barco1.jpeg",
+      "assets/img/portfolio/barco2.jpeg",
+      "assets/img/portfolio/barco3.jpeg",
+      "assets/img/portfolio/edi1.jpeg",
+      "assets/img/portfolio/edi2.jpeg",
+      "assets/img/portfolio/edi3.jpeg",
+      "assets/img/portfolio/edi4.jpeg",
+      "assets/img/portfolio/edi5.jpeg",
+      "assets/img/portfolio/edi6.jpeg",
+      "assets/img/portfolio/fuerte1.jpeg",
+      "assets/img/portfolio/cangrejo.jpeg",
+      "assets/img/portfolio/palmeras.jpeg",
+      "assets/img/portfolio/canones.jpeg",
+      "assets/img/portfolio/p1.png",
+      "assets/img/portfolio/p2.png",
+      "assets/img/portfolio/p3.png",
+      "assets/img/portfolio/p4.png",
+      "assets/img/portfolio/p5.png",
+      "assets/img/portfolio/p6.png",
+      "assets/img/portfolio/vocals.png",
+      "assets/img/portfolio/vocals3.png",
+      "assets/img/portfolio/eyes.png",
+      "assets/img/portfolio/emotions.png",
+      "assets/img/portfolio/espada.png",
+      "assets/img/portfolio/cadenas.png"
+    ],
+    "responsibilities": [
+      "3DsMax para el modelado del entorno y personaje.",
+      "Mudbox para el texturizado; las texturas del escenario se aplicaron mediante proyecciones."
+    ]
+  },
+  {
+    "id": "m-agony",
+    "section": "modelos3d",
+    "title": "Agony at Springer's House",
+    "subtitle": "Desarrollado en 1ero de Carrera",
+    "icon": "fas fa-laptop fa-2x",
+    "thumb": "assets/img/portfolio/RENDER_CAMA.jpg",
+    "large": "assets/img/portfolio/RENDER_CAMA.jpg",
+    "type": "image",
+    "description": "Estas imágenes pertenecen a un juego ficticio llamado Agony at Springer's House; modelé todos los elementos 3D del escenario y el personaje principal. La historia habla de una aristócrata que, durante un ritual, sufre una maldición y parte de su cuerpo se convierte en un árbol.",
+    "platforms": [
+      "assets/img/portfolio/3ds-max-logo.png",
+      "assets/img/portfolio/scketchup.png",
+      "assets/img/portfolio/substance-logo.jpg"
+    ],
+    "images": [
+      "assets/img/portfolio/RENDER_CAMA.jpg",
+      "assets/img/portfolio/RENDER_FRONTAL.jpg",
+      "assets/img/portfolio/RENDER_EXTERIOR.jpg",
+      "assets/img/portfolio/RENDER_ALAMCEN2.jpg",
+      "assets/img/portfolio/RENDER_ALMACEN_FLORERO1.png",
+      "assets/img/portfolio/RENDER_ALMACEN_FLORERO2.png",
+      "assets/img/portfolio/RENDER_ALMACEN1.jpg",
+      "assets/img/portfolio/RENDER_BAÑO2.jpg",
+      "assets/img/portfolio/RENDER_RITUAL.jpg",
+      "assets/img/portfolio/RENDER_ALMACEN3.jpg",
+      "assets/img/portfolio/RENDER_BIBLIOTECA1.jpg",
+      "assets/img/portfolio/RENDER_COCINA1.jpg",
+      "assets/img/portfolio/RENDER_COCINA2.jpg",
+      "assets/img/portfolio/RENDER_COMEDOR.jpg",
+      "assets/img/portfolio/RENDER_HABITACION2.jpg",
+      "assets/img/portfolio/RENDER_PERSONAJE_FLORERO_HABITACIÓN.png",
+      "assets/img/portfolio/RENDER_PERSONAJE_FLORERO_SALA.png",
+      "assets/img/portfolio/RENDER_PERSONAJE_FLORERO_SALA2.png",
+      "assets/img/portfolio/RENDER_PERSONAJE_SALA.png",
+      "assets/img/portfolio/RENDER_SALA.jpg",
+      "assets/img/portfolio/RENDER_SALA2.jpg",
+      "assets/img/portfolio/RENDER_VISTABAÑO.jpg"
+    ],
+    "responsibilities": [
+      "3DsMax para el modelado del personaje.",
+      "Substance Painter para el texturizado del personaje y props.",
+      "SketchUp para el modelado del escenario."
+    ]
+  },
+  {
+    "id": "m-indiestudio",
+    "section": "modelos3d",
+    "title": "Indie Studio Simulator",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fas fa-laptop fa-2x",
+    "thumb": "assets/img/portfolio/ISS_GraphicTablet.png",
+    "large": "assets/img/portfolio/ISS_GraphicTablet.png",
+    "type": "image",
+    "description": "Imágenes del videojuego Indie Studio Simulator (estilo Low Poly). Modelado y texturizado de varios props y elementos del escenario.",
+    "platforms": [
+      "assets/img/portfolio/Blender-logo.png"
+    ],
+    "images": [
+      "assets/img/portfolio/ISS_GraphicTablet.png",
+      "assets/img/portfolio/ISS_Bottles.png",
+      "assets/img/portfolio/ISS_Broom.png",
+      "assets/img/portfolio/ISS_Camera.png",
+      "assets/img/portfolio/ISS_Can.png",
+      "assets/img/portfolio/ISS_CatPlate.png",
+      "assets/img/portfolio/ISS_Caution.png",
+      "assets/img/portfolio/ISS_Chair.png",
+      "assets/img/portfolio/ISS_Cleanbox.png",
+      "assets/img/portfolio/ISS_ClosedCortain.png",
+      "assets/img/portfolio/ISS_SemiOpenCortain.png",
+      "assets/img/portfolio/ISS_Doors.png",
+      "assets/img/portfolio/ISS_Flashlight.png",
+      "assets/img/portfolio/ISS_Keyboard.png",
+      "assets/img/portfolio/ISS_Monitor.png",
+      "assets/img/portfolio/ISS_PC.png",
+      "assets/img/portfolio/ISS_Mouse.png",
+      "assets/img/portfolio/ISS_Lightbox.png",
+      "assets/img/portfolio/ISS_Mop.png",
+      "assets/img/portfolio/ISS_Mug.png",
+      "assets/img/portfolio/ISS_Phone.png",
+      "assets/img/portfolio/ISS_Sign.png",
+      "assets/img/portfolio/ISS_Table.png",
+      "assets/img/portfolio/ISS_VM.png",
+      "assets/img/portfolio/ISS_Whiteboard.png",
+      "assets/img/portfolio/ISS_Modulos.png"
+    ],
+    "responsibilities": [
+      "Blender para el modelado y texturizado de los modelos."
+    ]
+  },
+  {
+    "id": "m-skyline",
+    "section": "modelos3d",
+    "title": "Skyline Express",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fa-solid fa-laptop fa-3x",
+    "thumb": "assets/img/portfolio/SE_OVNI2.png",
+    "large": "assets/img/portfolio/SE_OVNI2.png",
+    "type": "image",
+    "description": "Imágenes del videojuego Skyline Express (estilo Cel Shading). Modelado y texturizado de personajes y props.",
+    "platforms": [
+      "assets/img/portfolio/Blender-logo.png"
+    ],
+    "images": [
+      "assets/img/portfolio/SE_OVNI2.png",
+      "assets/img/portfolio/SE_CIGARRETTE.png",
+      "assets/img/portfolio/SE_CUP.png",
+      "assets/img/portfolio/SE_SEMAPHORE.png"
+    ],
+    "responsibilities": [
+      "Blender para el modelado y texturizado de los modelos."
+    ]
+  },
+  {"ANIMACION": true, "DIV": "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"},
+  {
+    "id": "a-skyline",
+    "section": "animacion",
+    "title": "KO Cube",
+    "subtitle": "Desarrollado en 4to de Carrera",
+    "icon": "fa-solid fa-paintbrush fa-3x",
+    "thumb": "assets/img/portfolio/FotoGrupo2.png",
+    "large": "assets/img/portfolio/FotoGrupo2.png",
+    "type": "image",
+    "description": "Puedes ver las animaciones en los siguientes videos.",
+    "platforms": [
+      "assets/img/portfolio/Blender-logo.png"
+    ],
+    "videos": [
+      {"title": "Animación Idle de Ma Xin Gan", "src": "assets/img/portfolio/Idle.mp4"},
+      {"title": "Animación de caminar de Ma Xin Gan", "src": "assets/img/portfolio/Walk.mp4"},
+      {"title": "Animación de disparar de Ma Xin Gan", "src": "assets/img/portfolio/Shoot.mp4"},
+      {"title": "Animación de habilidad especial de Ma Xin Gan", "src": "assets/img/portfolio/Shield.mp4"},
+      {"title": "", "src": "assets/img/portfolio/Shield2.mp4"},
+      {"title": "Animación de muerte de Ma Xin Gan", "src": "assets/img/portfolio/Death.mp4"}
+
+    ],
+    "responsibilities": [
+      "Blender para el modelado y texturizado de los modelos."
+    ]
+  },
+  {
+    "id": "a-jackslife",
+    "section": "animacion",
+    "title": "Jack's Life",
+    "subtitle": "Desarrollado en 3ero de Carrera",
+    "icon": "fa-solid fa-paintbrush fa-3x",
+    "thumb": "assets/img/portfolio/fuerte1.jpeg",
+    "large": "assets/img/portfolio/fuerte1.jpeg",
+    "type": "image",
+    "description": "Estas imágenes pertenecen a un juego ficticio llamado Jack's Life, animé todos los elementos 3D para el escenario y el personaje principal.",
+    "platforms": [
+      "assets/img/portfolio/3ds-max-logo.png",
+      "assets/img/portfolio/Unity-Logo.png"
+    ],
+    "videos": [
+      {"title": "Video sobre Animación 3D del Escenario", "src": "assets/img/portfolio/Animacion3DBloqueI.mp4"},
+      {"title": "Video sobre Animación con Físicas. Simulación de Telas", "src": "assets/img/portfolio/Animacion3DBloqueII.mp4"}
+    ],
+    "responsibilities": [
+      "3DsMax para el modelado y texturizado de los modelos.",
+      "Animación de personajes y simulaciones de tela."
+    ]
+  },
+  {"CONCEPT": true, "DIV": "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"},
+  {
+    "id": "c-animalfantastico",
+    "section": "concept",
+    "title": "Animal Fantástico",
+    "subtitle": "Desarrollado en 2ero de Carrera",
+    "icon": "fa-solid fa-paintbrush",
+    "thumb": "assets/img/portfolio/AnimalFantástico.png",
+    "large": "assets/img/portfolio/AnimalFantástico.png",
+    "type": "image",
+    "description": "Una combinación de una jirafa, una tortuga y pez abisal para formar una nueva criatura marina de un videojuego ficticio.",
+    "platforms": [
+      "assets/img/portfolio/krita-logo.png"
+    ],
+    "images": [
+      "assets/img/portfolio/AnimalFantástico.png"
+    ],
+    "responsibilities": [
+      "Krita para el dibujo completo."
+    ]
+  }
+  ,
+  {
+    "id": "c-plantafantastica",
+    "section": "concept",
+    "title": "Planta Fantástica",
+    "subtitle": "Desarrollado en 2ero de Carrera",
+    "icon": "fa-solid fa-paintbrush",
+    "thumb": "assets/img/portfolio/PlantaFantastica.png",
+    "large": "assets/img/portfolio/PlantaFantastica.png",
+    "type": "image",
+    "description": "Una combinación de una palmera, un banano, flores y dos plantas carnívoras para crear una extraña pero fascinante nueva forma orgánica para un juego ficticio.",
+    "platforms": [
+      "assets/img/portfolio/krita-logo.png"
+    ],
+    "images": [
+      "assets/img/portfolio/PlantaFantastica.png"
+    ],
+    "responsibilities": [
+      "Krita para el dibujo completo."
+    ]
+  },
+  {
+    "id": "c-jackslife",
+    "section": "concept",
+    "title": "Jack's Life (Concept)",
+    "subtitle": "Desarrollado en 3ero de Carrera",
+    "icon": "fa-solid fa-paintbrush",
+    "thumb": "assets/img/portfolio/Character Model Sheet.png",
+    "large": "assets/img/portfolio/Character Model Sheet.png",
+    "type": "image",
+    "description": "Jack es el personaje principal de un videojuego ficticio llamado Jack's Life. Es un joven pirata que, tras escapar de la cárcel, es sorprendido por una tormenta que lo deja en una isla desierta. El personaje se creó siguiendo siluetas y bocetos para encontrar su composición.",
+    "platforms": [
+      "assets/img/portfolio/krita-logo.png"
+    ],
+    "images": [
+      "assets/img/portfolio/Character Model Sheet.png",
+      "assets/img/portfolio/Enviroment-Model-Sheet.png"
+    ],
+    "responsibilities": [
+      "Krita para el dibujo completo."
+    ]
+  }
+]
