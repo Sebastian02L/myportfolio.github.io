@@ -1,0 +1,393 @@
+[
+  {
+    "id": "p-ComingSoonWebGL",
+    "section": "videojuegos",
+    "title": "Juego sin título",
+    "timeStamp": "2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction":"Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage" : "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/ComingSoon.png",
+    "description": "¡Mantente atento para más información sobre este próximo juego!",
+    "responsibilities-title": "",
+    "responsibilities": [
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png"
+  },
+  {
+    "id": "p-ComingSoonAAR",
+    "section": "videojuegos",
+    "title": "Juego sin título",
+    "timeStamp": "2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction":"Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage" : "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/ComingSoon.png",
+    "description": "¡Mantente atento para más información sobre este próximo juego!",
+    "responsibilities-title": "",
+    "responsibilities": [
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png"
+  },
+  {
+    "id": "p-GlowAndKnow",
+    "section": "videojuegos",
+    "title": "Glow & Know",
+    "timeStamp": "2025-2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage": "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/Glow%26Know/AD.png",
+    "description": "Con motivo de la publicación de una portada realizada para IMDEA Nanociencia, se desarrolló un videojuego de <b>navegador</b> que transforma esta ilustración en un desafío interactivo. La mecánica del juego adapta la experiencia de la investigación a nanoescala, retando a los jugadores a memorizar y replicar la mayor cantidad de pasos que puedan.",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      "Diseño e implementación de la arquitectura del videojuego.",
+      "Diseño e implementación de un sistema progresivo de aumento de dificultad, basado en la cantidad de pasos agregados a la secuencia.",
+      "Diseño e implementación de las mecánicas principales, empleando estructuras de datos para almacenar, generar y validar dinámicamente la secuencia del jugador.",
+      "Implementación de un bloqueo de las pulsaciones del jugador mientras se muestra la secuencia a memorizar, evitando perder la partida accidentalmente.",
+      "Empleo de un temporizador que limita el tiempo de respuesta del jugador y determina el final del juego.",
+      "Implementación de un puente de comunicación unidireccional entre C# y JavaScript, para que el jugador pueda descargar una imagen del resultado de sus partidas."
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "itchio": {
+      "src": "https://itch.io/embed/4230632",
+      "width": 552,
+      "height": 167,
+      "href": "https://scientific-videogamescom.itch.io/glowandknow",
+      "text": "Glow & Know by Scientific Videogames"
+    }
+  },
+  {
+    "id": "p-IATEMON",
+    "section": "videojuegos",
+    "title": "IATEMON",
+    "timeStamp": "2025-2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage": "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/IATEMON/StoreCover.png",
+    "description": "Juego de <b>realidad aumentada</b> para <b>Android e IOS</b> desarrollado para el evento ExpoCiencia organizado por el Instituto de Agroquímica y Tecnología de Alimentos de Valencia. En este juego los jugadores pueden capturar personajes virtuales asociados a los diferentes talleres de divulgación científica del evento. <b>En su estreno la aplicación tuvo más de 150 descargas entre todas las plataformas.</b>",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      "Diseño e implementación de la arquitectura de la aplicación.",
+      "Incorporación de funcionalidades de realidad aumentada utilizando ARFoundation y ARCore/ARKit para detectar superficies.",
+      "Diseño y programación de interfaces de usuario dinámicas con ScriptableObjects, facilitando la escalabilidad y el mantenimiento de la aplicación.",
+      "Realización de prototipos incrementales.",
+      "Integración de la aplicación con Playfab para la gestión de datos.",
+      "Implementación del patrón Service Locator para gestionar dependiencias de sistemas.",
+      "Configuración de la aplicación para su despliegue en dispositivos móviles Android e iOS.",
+      "Programación de shaders estilo Celshading.",
+      "Incorporación de assets 2D y 3D.",
+      "Optimización general de la aplicación para mejorar el rendimiento en dispositivos móviles."
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "videoYoutube": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/3h_p678JA-c",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  {
+    "id": "p-plagueCollection",
+    "section": "videojuegos",
+    "title": "The Phage Collection Project",
+    "timeStamp": "2025",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage": "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/TPC/TPCImage.png",
+    "description": "Juego de <b>realidad virtual</b> donde debes salvar la vida de un niño de una infección bacteriana resistente a los medicamentos utilizando la terapia con bacteriófagos.",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      "Programación de las mecánicas de interacción con objetos e interfaces.",
+      "Programación del sistema de subtítulos sincronizado con el audio del juego.",
+      "Diseño estructural de las interfaces del juego.",
+      "Programación de IA para el personaje no jugable 'Lytico' utilizando una máquina de estados."
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "itchio": {
+      "src": "https://itch.io/embed/3698086",
+      "width": 552,
+      "height": 167,
+      "href": "https://scientific-videogamescom.itch.io/the-phage-collection-project-vr",
+      "text": "The Phage Collection Project VR by Scientific Videogames"
+    },
+    "videoYoutube": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/S_j8qJpWDec",
+      "width": 560,
+      "height": 315
+    }
+  },
+  {
+    "id": "p-Platforms",
+    "section": "videojuegos",
+    "title": "Platforms Microgame",
+    "timeStamp": "2025-2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage": "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/Platforms/GameplaySS1.png",
+    "description": "Perteneciente a la serie de microjuegos de Scientific Videogames, este videojuego de plataformas sirve de plantilla para crear nuevos videojuegos adaptados a las necesidades del cliente para divulgar su ciencia de una forma más memorable e interactiva. Define el aspecto de los personajes, los niveles y la información divulgada para crear un videojuego único y divertido <b>desarrollado para navegadores de escritorio y de dispositivos móviles.</b>",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      {
+        "group": "<b>Gameplay:</b>",
+        "items": [
+          "Diseño e implementación de la arquitectura del videojuego.",
+          "Creación de las mecánicas principales, como el salto, reaparición del personaje al morir y interacción con objetos.",
+          "Implementación de la IA de los enemigos que patrullan los niveles, empleando una máquina de estados.",
+          "Creación de un sistema de puntuación basado en el tiempo de finalización del nivel, el número de muertes y reintentos del jugador para superar el nivel."
+        ]
+      },
+      {
+        "group": "<b>Sistemas:</b>",
+        "items": [
+          "Desarrollo de un sistema de localización propio basado en ScriptableObjects y componentes.",
+          "Integración con la plataforma PlayFab, con el cual se realiza un ranking de puntuaciones entre todos los jugadores.",
+          "Integración con Unity Analytics para recopilar datos sobre la experiencia del juego.",
+          "Envió de datos a un servidor remoto para almacenar los datos.",
+          "Creación de controladores de volumen para la música del juego y los efectos de sonido, almacenando su valor en PlayerPrefs para aplicarlo entre sesiones de juego."
+        ]
+      },
+      {
+        "group": "<b>Arte y efectos visuales:</b>",
+        "items": [
+          "Implementación de un efecto Parallax en el fondo del nivel, descomponiéndolo en tres capas diferentes que dan sensación de profundidad y dinamismo.",
+          "Creación de una transición entre niveles con un efecto de fundido a negro estilo pintura con ShaderGraph.",
+          "Creación de animaciones realizadas desde el Motor Unity para personajes e interfaces de usuario.",
+          "Empleo del algoritmo de DeCasteljau para la interpolación de curvas Bézier para animaciones hechas por código en tiempo de ejecución."
+        ]
+      }
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "itchio": {
+      "src": "https://itch.io/embed/4325868",
+      "width": 552,
+      "height": 167,
+      "href": "https://scientific-videogamescom.itch.io/platform-demo-2",
+      "text": "Platforms Microgame - DEMO 2 by Scientific Videogames"
+    }
+  },
+  {
+    "id": "p-Arcade",
+    "section": "videojuegos",
+    "title": "Arcade Microgame",
+    "timeStamp": "2025-2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage": "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/Arcade/GameplaySS1.png",
+    "description": "Perteneciente a la serie de microjuegos de Scientific Videogames, este videojuego estilo Asteroid sirve de plantilla para crear nuevos videojuegos adaptados a las necesidades del cliente para divulgar su ciencia de una forma más memorable e interactiva. Define la temática de todos los elementos para crear un videojuego único y divertido <b>desarrollado para navegadores de escritorio y de dispositivos móviles.</b>",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      {
+        "group": "<b>Gameplay:</b>",
+        "items": [
+          "Diseño e implementación de la arquitectura del videojuego.",
+          "Diseño e implementación de un sistema progresivo de aumento de dificultad, basado en el tiempo transcurrido, que afecta a la velocidad a la que los enemigos son instanciados alrededor del jugador y su velocidad de movimiento.",
+          "Diseño e implementación de las mecánicas principales, como el disparo de proyectiles, power-ups y gestión de colisiones.",
+          "Gestión de la memoria mediante un sistema de pooling, empleado en los proyectiles del jugador y en los enemigos."
+        ]
+      },
+      {
+        "group": "<b>Sistemas:</b>",
+        "items": [
+          "Desarrollo de un sistema de localización propio basado en ScriptableObjects y componentes.",
+          "Integración con la plataforma PlayFab, con el cual se realiza un ranking de puntuaciones entre todos los jugadores.",
+          "Integración con Unity Analytics para recopilar datos sobre la experiencia del juego.",
+          "Envió de datos a un servidor remoto para almacenar los datos.",
+          "Creación de controladores de volumen para la música del juego y los efectos de sonido, almacenando su valor en PlayerPrefs para aplicarlo entre sesiones de juego."
+        ]
+      },
+      {
+        "group": "<b>Arte y efectos visuales:</b>",
+        "items": [
+          "Implementación de un fondo \"infinito\" empleando una imagen tileable y Shadergraph. Parallax en el fondo del nivel",
+          "Uso de sistemas de partículas para efectos especiales.",
+          "Creación de animaciones realizadas desde el Motor Unity para personajes e interfaces de usuario.",
+          "Empleo del algoritmo de DeCasteljau para la interpolación de curvas Bézier para animaciones hechas por código en tiempo de ejecución, las cuales se emplean en el camino que hace el enemigo para llegar al jugador."
+        ]
+      }
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "itchio": {
+      "src": "https://itch.io/embed/4212888",
+      "width": 552,
+      "height": 167,
+      "href": "https://scientific-videogamescom.itch.io/microgame-3",
+      "text": "Arcade Microgame - DEMO by Scientific Videogames"
+    }
+  },
+  {
+    "id": "p-Memory",
+    "section": "videojuegos",
+    "title": "Memory Microgame",
+    "timeStamp": "2025-2026",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Scientific Videogames<sup>↗</sup>",
+    "developerPage": "https://www.scientificvideogames.com/",
+    "thumb": "images/Games/Memory/MemoryImage.png",
+    "description": "Perteneciente a la serie de microjuegos de Scientific Videogames, este videojuego de memoria sirve de plantilla para crear nuevos videojuegos adaptados a las necesidades del cliente para divulgar su ciencia de una forma más dinámica e interactiva. Define la temática de las cartas y su contenido divulgativo para crear un videojuego único y divertido <b>desarrollado para navegadores de escritorio y de dispositivos móviles.</b>",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      {
+        "group": "<b>Gameplay:</b>",
+        "items": [
+          "Diseño e implementación de la arquitectura del videojuego.",
+          "Implementación del sistema que genera aleatoriamente las parejas de cartas mediante un único recorrido de la estructura de datos empleada.",
+          "Uso de ScriptableObjects para almacenar los gráficos y el contenido divulgativo de cada carta, asegurando una arquitectura escalable y fácil de mantener en el tiempo.",
+          "Generación dinámica del tablero de juego, adaptándose al número de cartas y ajustando sus dimensiones en cada partida."
+        ]
+      },
+      {
+        "group": "<b>Sistemas:</b>",
+        "items": [
+          "Desarrollo de un sistema de localización propio basado en ScriptableObjects y componentes.",
+          "Integración con la plataforma PlayFab, con el cual se realiza un ranking de puntuaciones entre todos los jugadores.",
+          "Integración con Unity Analytics para recopilar datos sobre la experiencia del juego.",
+          "Envió de datos a un servidor remoto para almacenar los datos.",
+          "Creación de controladores de volumen para la música del juego y los efectos de sonido, almacenando su valor en PlayerPrefs para aplicarlo entre sesiones de juego."
+        ]
+      },
+      {
+        "group": "<b>Arte y efectos visuales:</b>",
+        "items": [
+          "Creación de animaciones realizadas desde el Motor Unity para personajes e interfaces de usuario."
+        ]
+      }
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "itchio": {
+      "src": "https://itch.io/embed/4212884",
+      "width": 552,
+      "height": 167,
+      "href": "https://scientific-videogamescom.itch.io/memory-microgame",
+      "text": "Memory Microgame by Scientific Videogames"
+    }
+  },
+  {
+    "id": "p-KO-Cube",
+    "section": "videojuegos",
+    "title": "Glow & Know",
+    "timeStamp": "2024-2025",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Universidad Rey Juan Carlos<sup>↗</sup>",
+    "developerPage": "https://www.urjc.es/",
+    "thumb": "images/Games/KOCube/GameplaySS.png",
+    "description": "Hero Shooter 3vs3 para <strong>navegador</strong> donde puedes combatir con tus amigos en diferentes modos de juego mediante el navegador de tu móvil o ordenador.",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      "Modelado, texturizado y animación del personaje 'Ma Xin Gan'.",
+      "Modelado, texturizado y animación de props del escenario.",
+      "Modelado y texturizado del arma del personaje 'Alra'.",
+      "Modelado y texturizado de los proyectiles de varios personajes.",
+      "Programación del sistema de guardado local de datos mediante PlayerPrefs.",
+      "Programación del sistema de selección de personajes, mostrando sus características en la interfaz y instanciándolos en los runtimes de los jugadores.",
+      "Diseño de los botones y carteles de las interfaces.",
+      "Navegación por mando mediante el New Input System.",
+      "Renders para redes sociales."
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "videoYoutube": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/txQy7UnuKso",
+      "width": "100%",
+      "height": "100%"
+    },
+    "itchio": {
+      "src": "https://itch.io/embed/3020985",
+      "width": 552,
+      "height": 167,
+      "href": "https://flatwall-games.itch.io/kocube",
+      "text": "KoCube by FlatWall Games"
+    }
+  },
+  {
+    "id": "p-IndieStudioSimulator",
+    "section": "videojuegos",
+    "title": "Indie Studio Simulator",
+    "timeStamp": "2024-2025",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Universidad Rey Juan Carlos<sup>↗</sup>",
+    "developerPage": "https://www.urjc.es/",
+    "thumb": "images/Games/ISS/GameplaySS.png",
+    "description": "Indie Studio Simulator se trata de un simulador para <b>Windows</b> donde el jugador puede observar cómo es estar dentro de un estudio indie de videojuegos. El jugador puede interactuar con elementos de la oficina, afectando a la productividad de la empresa. Los NPCs rigen su comportamiento a través de una combinación de diversos sistemas, como <b>máquinas de estados finitos</b>, <b>árboles de decisión</b> y <b>sistemas de utilidad</b>.",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      "Programación del comportamiento del conserje mediante una máquina de estados y un árbol de decisión.",
+      "Modelado y texturizado de estructura de la oficina.",
+      "Modelado y texturizado de gran parte de los assets empleados en el juego."
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "videoYoutube": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YrGJbPWUWAw",
+      "width": "100%",
+      "height": "100%"
+    },
+    "itchio": {
+      "src": "https://itch.io/embed/3193860",
+      "width": 552,
+      "height": 167,
+      "href": "https://flatwall-games.itch.io/indie-studio-simulator",
+      "text": "Indie Studio Simulator by FlatWall Games"
+    }
+  },
+  {
+    "id": "p-PatternWorld",
+    "section": "videojuegos",
+    "title": "Pattern World",
+    "timeStamp": "2024-2025",
+    "icon": "images/Icons/Gamepad.png",
+    "subtitleIntroduction": "Desarrollado en",
+    "subtitle": "Universidad Rey Juan Carlos<sup>↗</sup>",
+    "developerPage": "https://www.urjc.es/",
+    "thumb": "images/Games/PatternWorld/PatternWorldAD.png",
+    "description": "Pattern World es un videojuego serio de minijuegos para <b>Windows</b> cuyo objetivo es enseñar los patrones de diseño de software aplicados al desarrollo de videojuegos. El juego presenta algunos de los patrones más utilizados en la industria y permite comprender, de forma interactiva y visual, qué problemas resuelve cada uno y cómo se aplican. De este modo, Pattern World sirve como una herramienta de apoyo para aprender y afianzar estos conceptos. <br><br> Este videojuego fue el <b>trabajo de fin de grado</b> en Sebastián Loges en la carrera de Diseño y Desarrollo de Videojuego en la Universidad Rey Juan Carlos, <b>calificado con un 10 por el tribunal evaluador.</b><br><br>Puedes acceder a la <a href= https://burjcdigital.urjc.es/items/87e23049-8a2e-4b08-af9f-b1fe58c39750>memoria del proyecto</a> y al <a href=https://github.com/Sebastian02L/PatternWorld>repositorio de Github</a>.",
+    "responsibilities-title": "<strong>Mis contribuciones:</strong>",
+    "responsibilities": [
+      "Diseño e implementación de la arquitectura del videojuego.",
+      "Implementación de un patrón Component para el minijuego de construcción de androides, permitiendo el intercambio sencillo de piezas en tiempo de ejecución.",
+      "Creación de un patrón Observer para el minijuego de sigilo, facilitando que diversos sistemas del nivel reaccionen a eventos de otros sistemas de forma sencilla.",
+      "Implementación de un patrón State para el minijuego de sigilo y FPS, permitiendo modelar el comportamiento de los personajes.",
+      "Uso de un patrón Object Pool para el minijuego FPS, optimizando el rendimiento al gestionar el ciclo de vida de los proyectiles y de los enemigos.",
+      "Uso de ScriptableObjects, separando la lógica de los datos, facilitando la escalabilidad y el mantenimiento del videojuego.",
+      "Creación de una arquitectura con herencia y una clase abstracta, que define la implementación común de todas las armas del minijuego FPS, permitiendo la rápida creación de nuevas armas.",
+      "Uso del NavMesh de Unity para la navegación automática de los personajes.",
+      "Uso de Probuilder para la creación de los niveles y assets del videojuego, permitiendo un prototipado rápido para testear.",
+      "Sistema de guardado de datos locales mediante PlayerPrefs.",
+      "Programación de shaders estilo Celshading."
+    ],
+    "developed-with-title": "Desarrollado con",
+    "developedIn": "images/Logos/Unity-Logo-Blanco.png",
+    "itchio": {
+      "src": "https://itch.io/embed/3595883",
+      "width": 552,
+      "height": 167,
+      "href": "https://sebas-cvz.itch.io/pattern-world",
+      "text": "Pattern World by Sebastián Loges de Faria"
+    }
+  }
+]

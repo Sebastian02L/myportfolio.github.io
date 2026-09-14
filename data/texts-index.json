@@ -1,0 +1,51 @@
+[
+  {
+  "id": "navbar-home",
+  "texts": ["Inicio", "Home"]
+  },
+  {
+  "id": "navbar-projects",
+  "texts": ["Proyectos", "Projects"]
+  },
+  {
+  "id": "navbar-about-me",
+  "texts": ["Sobre mí", "About me"]
+  },
+  {
+  "id": "navbar-contact",
+  "texts": ["Contacto", "Contact"]
+  },
+  {
+  "id": "navbar-other-sites",
+  "texts": ["Otros sitios web", "Other websites"]
+  },
+  {
+  "id": "hero-title",
+  "texts": ["Programador de Videojuegos y Desarrollador de Software", "Videogames Programmer & Software Developer"]
+  },
+  {
+  "id": "videogames-title",
+  "texts": ["Proyectos", "Projects"]
+  },
+  {
+  "class": "overlay-text",
+  "texts": ["Haz clic para ver!", "Click to view!"]
+  },
+  {
+  "id": "about-me-title",
+  "texts": ["Sobre mí", "About me"]
+  },
+  {
+  "id": "about-me-text",
+  "texts": ["Sebastián Loges es desarrollador de videojuegos especializado en programación y arquitectura de software. Desde 2025 trabaja en Scientific Videogames, donde se encarga del diseño e implementación de arquitecturas de software modulares, escalables y fáciles de mantener.<br><br>Su trabajo incluye la programación de mecánicas y sistemas, la integración de herramientas y servicios externos, la optimización del rendimiento y el mantenimiento de proyectos durante todo su ciclo de vida. Ha desarrollado y desplegado proyectos para una amplia variedad de plataformas, incluyendo Android, iOS, WebGL, realidad virtual (VR) y realidad aumentada (AR), adaptando tanto el software como su arquitectura a los requisitos técnicos de cada plataforma.<br><br>Trabaja principalmente con Unity y C#, y cuenta con experiencia integrando tecnologías y servicios como PlayFab y otras herramientas de terceros. Está especialmente interesado en resolver desafíos técnicos, desarrollar sistemas robustos y crear software eficiente, escalable y fácil de mantener.",
+            "Sebastián Loges is a videogame developer specializing in programming and software architecture. Since 2025, he has been working at Scientific Videogames, where he is responsible for designing and implementing modular, scalable, and maintainable software architectures.<br><br>His work includes gameplay and systems programming, integrating external tools and services, optimizing performance, and maintaining projects throughout their lifecycle. He has developed and deployed projects for a wide range of platforms, including Android, iOS, WebGL, VR, and AR, adapting both the software and its architecture to the technical requirements of each platform.<br><br>He primarily works with Unity and C#, with experience integrating technologies and services such as PlayFab and other third-party tools. He is particularly interested in solving technical challenges, building robust systems, and creating software that is efficient, scalable, and easy to maintain."]
+  },
+  {
+  "id": "contact-title",
+  "texts": ["Contacto", "Contact"]
+  },
+  {
+  "id": "other-sites-title",
+  "texts": ["Otros sitios web", "Other websites"]
+  }
+]
