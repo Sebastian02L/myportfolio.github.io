@@ -72,7 +72,7 @@ button {
 
 .container {
     max-width: 1200px;
-    margin: auto
+    margin: auto;
         /*Esta propiedad, en combinacion con la de arriba, hace que cuando haya más de max-width de espacio, centre el contenido agregando margenes a los lados*/
 }
 
@@ -172,6 +172,8 @@ nav {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 20px 0 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -179,6 +181,8 @@ nav {
     color: white;
     font-style: italic;
     margin: 10px 0 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -197,21 +201,6 @@ nav {
     align-items: center;
     max-width: 1500px;
     margin: auto;
-}
-
-@media (max-width: 1216px) {
-    #videogames-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .videogame {
-        width: 100%;
-    }
-
-    .nav-button {
-        padding: 10px 10px;
-    }
 }
 
 .videogame {
@@ -272,13 +261,18 @@ nav {
 
 #showcase-content {
     background-color: var(--videogame-showcase-background-color);
-    border-radius: 15px;
+    border-radius: 25px;
+    width: 1500px;
+    margin: auto;
     gap: 20px;
 }
 
 #showcase-title {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,6 +307,7 @@ nav {
 
 #showcase-columns ul{
     color: white;
+    
 }
 
 #developed-in-title {
@@ -326,9 +321,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
     padding: 20px;
-    background-color: var(--videogame-showcase-background-color);
-    border-radius: 15px;
     gap: 20px;
 }
 
@@ -344,12 +338,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#showcase-content p {
-    color: white;
-    font-size: large;
-    padding: 0;
+    width: 100%;
 }
 
 .gamepad-icon {
@@ -359,22 +348,27 @@ nav {
 
 #thumb {
     /*Imagen grande de la info del juego*/
-    width: 600px;
     aspect-ratio: 16/9;
     border-radius: 15px;
+    width: 100%;
+}
+
+#youtube-embed {
+    width: 100%;
 }
 
 #youtube-embed iframe {
     /*Video de youtube de la info del juego*/
-    width: 600px;
     aspect-ratio: 16/9;
-    height: auto;
+    width: 100%;
 }
 
 #description {
     color: white;
-    max-width: 600px;
-    padding: 20px;
+    text-align: justify;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: large;
 }
 
@@ -618,6 +612,13 @@ nav {
     filter: invert(50%);
 }
 
+@media (max-width: 1586px){
+    #showcase-content
+    {
+        width: 90%;
+    }
+}
+
 @media (max-width: 768px) {
 
     h1 {
@@ -634,6 +635,15 @@ nav {
 
     p {
         font-size: 1em;
+    }
+    
+    #videogames-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .videogame{
+        width: 70%;
     }
 
     .nav-bar,
@@ -683,21 +693,19 @@ nav {
         padding-top: 120px;
     }
 
+    #showcase-content
+    {
+        width: 90%;
+    }
+
+    #itchio-embed-1 iframe,
+    #itchio-embed-2 iframe{  
+        width: 100%;
+        height: 100%;
+    }
+
     #hero div img {
         height: 160px;
-    }
-
-    #thumb {
-        width: 100%;
-    }
-
-    #youtube-embed iframe {
-        width: 100%;
-    }
-
-    #description {
-        max-width: 100%;
-        padding: 10px;
     }
 
     #about-me-carousel {

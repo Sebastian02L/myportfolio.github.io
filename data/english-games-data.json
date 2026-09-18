@@ -92,9 +92,7 @@
     "developedIn": "images/Logos/Unity-Logo-Blanco.png",
     "videoYoutube": {
       "type": "iframe",
-      "src": "https://www.youtube.com/embed/3h_p678JA-c",
-      "width": 552,
-      "height": 315
+      "src": "https://www.youtube.com/embed/3h_p678JA-c"
     }
   },{
     "id": "p-plagueCollection",
@@ -118,16 +116,14 @@
     "developedIn": "images/Logos/Unity-Logo-Blanco.png",
     "itchio": {
       "src": "https://itch.io/embed/3698086",
-      "width": 545,
+      "width": 562,
       "height": 167,
       "href": "https://scientific-videogamescom.itch.io/the-phage-collection-project-vr",
       "text": "The Phage Collection Project VR by Scientific Videogames"
     },
     "videoYoutube": {
       "type": "iframe",
-      "src": "https://www.youtube.com/embed/S_j8qJpWDec",
-      "width": 560,
-      "height": 315
+      "src": "https://www.youtube.com/embed/S_j8qJpWDec"
     }
   },
   {

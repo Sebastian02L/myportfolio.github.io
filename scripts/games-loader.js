@@ -2,6 +2,10 @@ window.addEventListener('DOMContentLoaded', async event => {
   //Suscripcion de eventos
   document.querySelectorAll(".overlay").forEach(game => {
     game.addEventListener("click", OnGameClicked);
+
+  document.querySelectorAll("#gameCover").forEach(game => {
+    game.addEventListener("click", OnGameClicked);
+  });
   });
 
   //Cargamos los datos de los juegos en memoria
@@ -29,7 +33,6 @@ async function LoadGames() {
 //Se ejecuta cuando el usuario hace click en la portada de alguno de los juegos
 async function OnGameClicked() {
   let videogameShowcase = document.querySelector("#videogame-showcase");
-  let container = videogameShowcase.querySelector(".container");
 
   if (gameCoverShowcased == null) {
     gameCoverShowcased = this.id.slice(1); //Guarda el ID del elemento pulsado (G0, G1, G2...)
@@ -45,7 +48,7 @@ async function OnGameClicked() {
   }
 
   const videogameInfo = SearchGameInfo(gameCoverShowcased);
-  await CreateVideogameShowcase(container, videogameInfo);
+  await CreateVideogameShowcase(videogameShowcase, videogameInfo);
 
   //Muestra el contenido
   videogameShowcase.classList.add("expanded");
@@ -79,7 +82,7 @@ async function CreateVideogameShowcase(container, videogameInfo) {
           </div>
 
           <div class="showcase-column">
-            <p id="description" style="text-align: justify;">${videogameInfo.description}</p>
+            <p id="description">${videogameInfo.description}</p>
             <h3 id="responsibilities-title">${videogameInfo["responsibilities-title"]}</h3>
             <ul id="responsibilities">
               ${videogameInfo.responsibilities.map(r =>
@@ -110,7 +113,7 @@ async function CreateVideogameShowcase(container, videogameInfo) {
     if (videogameInfo.videoYoutube) {
       const youtubeEmbed = document.querySelector("#youtube-embed");
       youtubeEmbed.innerHTML = `
-            <iframe width="${videogameInfo.videoYoutube.width}" height="${videogameInfo.videoYoutube.height}" 
+            <iframe 
             src="${videogameInfo.videoYoutube.src}" 
             title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
             encrypted-media; gyroscope; picture-in-picture; web-share" 

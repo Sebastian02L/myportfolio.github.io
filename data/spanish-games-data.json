@@ -125,9 +125,7 @@
     },
     "videoYoutube": {
       "type": "iframe",
-      "src": "https://www.youtube.com/embed/S_j8qJpWDec",
-      "width": 560,
-      "height": 315
+      "src": "https://www.youtube.com/embed/S_j8qJpWDec"
     }
   },
   {
@@ -310,9 +308,7 @@
     "developedIn": "images/Logos/Unity-Logo-Blanco.png",
     "videoYoutube": {
       "type": "iframe",
-      "src": "https://www.youtube.com/embed/txQy7UnuKso",
-      "width": "100%",
-      "height": "100%"
+      "src": "https://www.youtube.com/embed/txQy7UnuKso"
     },
     "itchio": {
       "src": "https://itch.io/embed/3020985",
@@ -343,9 +339,7 @@
     "developedIn": "images/Logos/Unity-Logo-Blanco.png",
     "videoYoutube": {
       "type": "iframe",
-      "src": "https://www.youtube.com/embed/YrGJbPWUWAw",
-      "width": "100%",
-      "height": "100%"
+      "src": "https://www.youtube.com/embed/YrGJbPWUWAw"
     },
     "itchio": {
       "src": "https://itch.io/embed/3193860",
